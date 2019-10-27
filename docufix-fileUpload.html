@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>docufix-fileUpload</title>
+	<style>
+
+body{
+	font-family:ubuntu;
+		
+}
+a{
+	text-decoration:none;
+	color:#FFFEFE;
+}
+/* Styling the navbar */
+.navbar{
+	background-color: #000000;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+.navbar>div{
+	font-size:25px;
+	color: #FFFEFE;
+	padding:40px; 
+}
+.navbar>div:nth-child(1){
+	margin-right:auto;
+}
+
+/* Styling the main page */	
+.wrapper{
+	background-color: rgba(221, 232, 232, 0.5);
+	display:flex;
+	flex-direction:center;
+}
+.compare{
+	margin-left:20px;
+	margin-top:20px;
+}
+/* Styling the upload */
+.upload{
+	display:flex;
+	flex-direction:center;
+	margin-top:30px;
+	padding:10px;
+	justify-content:center;
+	margin-left:470px;
+}
+.uploadFile{
+	border-right:2px solid #000000;
+	padding-right:10px;
+
+}
+.uploadText{
+	padding-left:10px;
+
+}
+/* Styling the document */
+.document{
+justify-content: center;
+
+}
+.first{
+	display:flex;
+	flex-direction:row;
+	padding:50px;
+	margin-left:20px;
+}
+.firstInput{
+	margin-top:20px;
+	margin-left:200px;
+}
+.firstImage{
+	margin-left:200px;
+	padding-bottom:70px;
+}
+.second{
+	display:flex;
+	flex-direction:row;
+	padding:50px;
+	margin-left:20px;
+}
+.secondInput{
+	margin-left:200px;
+}
+.secondImage{
+	margin-left:200px;
+	margin-bottom:70px;
+}
+.secondImage >upload{
+	padding-bottom: 50px;
+}
+
+/* Styling the compare submit */
+.compare-btn {
+           text-align: center;
+           width: 150px;
+           height: 40px;
+           margin-left: 600px;
+           margin-top: 35px;
+           border-radius: 10px;
+           background-color: #000000;
+           color: #ffffff;
+           
+       }
+       .compare-img {
+           width: 16.5px;
+           height: 16.5px;
+           vertical-align: middle;
+       }
+       .compare-btn-txt {
+           margin-left: 6px;
+       }
+
+/* Styling the input button */
+input[type=file] {
+    border-bottom: 2px solid #000000;
+     }
+	</style>
+</head>
+
+<body>
+	<nav class="navbar">
+				<div><a href="#">DOCUFIX</a></div>
+				<div><a href="#">About Us</a></div>
+				<div><a href="#">Team</a></div>
+				<div><a href="#">Sponsors</a></div>
+	</nav>
+
+	<div class="wrapper">	
+		<div class="fileUpload">
+
+<!---- Text and File compare starts here---->
+
+			<div class="compare"><h3>Compare Two Documents</h3></div>
+			<div class="upload">
+				<div class="uploadFile"><img src="image/text.png">File</div>
+				<div class="uploadText"><img src="image/Group (1).png">Text</div>
+		</div>
+<!---- Text and File compare ends here---->
+
+<!---- Uploading of Documents starts here---->
+
+		<div class="document">
+			<div class="first"><h3>First Document:</h3>
+			<div class="firstInput"> <input type="file" name="first-doc"accept=".doc, .txt, .pdf, .docx" placeholder= "Docufix.txt"></div>
+			<div class="firstImage"><img src="image/Group.png">upload</div>
+			</div>
+
+			<div class="second"><h3>Second Document:</h3>
+			 <div class="secondInput"><input type="file" name="second-doc"accept=".doc, .txt, .pdf, .docx" placeholder="Docufix.txt"></div>
+			 <div class="secondImage"><img src="image/Group.png">upload</div>
+			</div>
+
+<!---- Uploading of Documents ends here---->
+
+<!---- Check for compare starts here---->
+<button type="submit" class="compare compare-btn">
+		<img class="compare-img" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1571193103/samples/figma%20career-list/lario/butfaguuckar9dl0i1ug.png(804 B)
+ https://res.cloudinary.com/dtbjhs8a6/image/upload/v1571193103/samples/figma%20career-list/lario/butfaguuckar9dl0i1ug.png
+ ">
+		<span class="compare-btn-txt">COMPARE</span>
+	</button>
+<!---- Check for compare starts here---->
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

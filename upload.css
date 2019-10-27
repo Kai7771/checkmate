@@ -1,0 +1,32 @@
+body{
+	font-family:ubuntu;
+		display:flex;
+	justify-content:center;
+}
+.wrapper{
+	background-color: rgba(221, 232, 232, 0.5);
+	width:60%
+}
+.navbar{
+	display:flex;
+	font-size:25px;
+	background-color: #000000;
+	color: #E5E5E5;
+
+}
+.name{
+	padding:45px;
+	font-size:25px;
+	align-items:flex-start;
+
+}
+ul{
+	display: flex;
+	flex-direction:row;
+	padding:10px;
+}
+li{
+	padding:10px;
+	color: #E5E5E5;
+}
+li>
